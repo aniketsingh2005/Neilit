@@ -14,3 +14,11 @@ print(product)
 
 div = a/b
 print(div)
+
+#find the area of the rectangle. Take the input from the user.a
+
+len = int(input("Enter the length:"))
+br = int(input("Enter the breadth:"))
+
+Area = len*br
+print("The area of the rectangle is:",Area)
