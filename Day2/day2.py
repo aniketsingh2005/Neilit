@@ -49,15 +49,33 @@
 #     print(second,"is greater than",first,".")    
 
 
-num1 = int(input("Enter the first no.:"))
-num2 = int(input("Enter the second no.:"))
-num3 = int(input("Enter the third no.:"))
+# num1 = int(input("Enter the first no.:"))
+# num2 = int(input("Enter the second no.:"))
+# num3 = int(input("Enter the third no.:"))
 
-if num1>num2 and num1>num3:
-    print(num1,"is greater than",num2,"and",num3)
+# if num1>num2 and num1>num3:
+#     print(num1,"is greater than",num2,"and",num3)
 
-elif num2>num1 and num2>num3:
-    print(num2,"is greater than",num1,"and",num3)
+# elif num2>num1 and num2>num3:
+#     print(num2,"is greater than",num1,"and",num3)
 
-else:
-    print(num3,"is greater than",num1,"and",num2)        
+# else:
+#     print(num3,"is greater than",num1,"and",num2)        
+
+
+# alpha = str(input("Enter the character:"))
+
+# if alpha in "a,e,i,o,u" :
+#     print("The character is vowel.")
+
+# else:
+#     print("The given character is consonant.")    
+
+saal = int(input("Enter the year:"))
+
+if (saal % 400 == 0) or (saal % 4 == 0 and saal % 100 != 0 ) :
+
+    print("The year is a leap year.")
+
+else :
+    print("The year is not a leap year.")    
