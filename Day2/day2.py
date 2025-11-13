@@ -71,11 +71,39 @@
 # else:
 #     print("The given character is consonant.")    
 
-saal = int(input("Enter the year:"))
+# saal = int(input("Enter the year:"))
 
-if (saal % 400 == 0) or (saal % 4 == 0 and saal % 100 != 0 ) :
+# if (saal % 400 == 0) or (saal % 4 == 0 and saal % 100 != 0 ) :
 
-    print("The year is a leap year.")
+#     print("The year is a leap year.")
+
+# else :
+#     print("The year is not a leap year.")    
+
+
+# num = int(input("Enter the number:"))
+
+# if num % 3 == 0 and num % 7 == 0 :
+#     print("The number is divisible by both 3 and 7.")
+
+# else :
+#     print("The number is not divisible by both 3 and 7.")    
+
+
+marks = int(input("Enter your marks :"))
+
+if marks>=90 :
+    print("The grade is A")
+
+elif marks>=80 :
+    print("The grade is B")
+
+elif marks>=70 :
+    print("The grade is C")    
+
+elif marks>=60 :
+    print("The grade is D") 
 
 else :
-    print("The year is not a leap year.")    
+    print("You are fail bro.")       
+        
