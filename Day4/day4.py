@@ -58,8 +58,22 @@
 # print(check_vowel("a"))
 
 
-def sum_list(numbers):
-    a = 0
+# def sum_list(numbers):
+#     total = 0
+#     for i in range(len(numbers)):
+#         total += numbers[i]
+
+#     return(total)    
+
+# print(sum_list([1,2,3,4,9]))   
+         
+
+
+
+
+
+
+    
     
 
         
