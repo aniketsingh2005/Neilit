@@ -66,6 +66,25 @@
 #     return(total)    
 
 # print(sum_list([1,2,3,4,9]))   
+
+# def fact(n):
+#     facto  = 1
+    
+#     if n == 1 or n == 0 :
+#         print("factorial :",1)
+
+#     for i in range(1,n+1):
+#         facto *= i
+
+#     return(facto)    
+
+# print(fact(4))    
+
+# def reverse(s):
+#     rev = s[::-1]
+#     print(rev)
+
+# reverse("hello")    
          
 
 
