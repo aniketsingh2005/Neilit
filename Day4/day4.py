@@ -86,6 +86,42 @@
 
 # reverse("hello")    
          
+# def palindro(name):
+
+#     pname = name[::-1]
+
+#     if name == pname :
+#         return("Yes, the given word is palindrome.")
+
+#     else :
+#         return("No, The given word is not a palindrome word.") 
+
+# print(palindro("madam"))
+
+# def cout(lst):
+    
+#     count = 0
+
+#     for i in range(0,len(lst)):
+        
+#         if lst[i] % 2 == 0:
+#             count += 1
+
+#         else :
+#             continue
+
+#     return(count)   
+
+# print(cout([24,34,57,46,2,4,6]))
+
+def convert_temp(celsius):
+
+    farhen = (celsius * 9/5) + 32
+    return(farhen)
+
+print(convert_temp(10))    
+
+
 
 
 
