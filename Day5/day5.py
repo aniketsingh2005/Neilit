@@ -1,4 +1,5 @@
 import numpy as np
+
 # a = np.array([1,2,3,4,5])
 # print(a)
 
@@ -6,8 +7,8 @@ import numpy as np
 # print(b)
 
 c = np.array([[1,2,3,8],[4,5,6,7],[9,2,4,5]])
-print(c.itemsize)
-print(c.dtype)
-print(c.shape)
-print(c.size)
-print(c.reshape(4,3)) 
+# print(c.itemsize)
+# print(c.dtype)
+# print(c.shape)
+# print(c.size)
+# print(c.reshape(4,3)) 

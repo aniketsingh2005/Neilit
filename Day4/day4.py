@@ -114,12 +114,12 @@
 
 # print(cout([24,34,57,46,2,4,6]))
 
-def convert_temp(celsius):
+# def convert_temp(celsius):
 
-    farhen = (celsius * 9/5) + 32
-    return(farhen)
+#     farhen = (celsius * 9/5) + 32
+#     return(farhen)
 
-print(convert_temp(10))    
+# print(convert_temp(10))    
 
 
 

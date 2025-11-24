@@ -13,8 +13,8 @@ import numpy as np
 # print(c)
 # print(c.max(axis=0))
 
-c = np.array([[1,2,30],[10,15,4]])
-d = np.array([[1,2,3],[12,19,29]])
+# c = np.array([[1,2,30],[10,15,4]])
+# d = np.array([[1,2,3],[12,19,29]])
 
-print(np.vstack((c,d)))
-print(np.hstack((c,d)))
+# print(np.vstack((c,d)))
+# print(np.hstack((c,d)))
