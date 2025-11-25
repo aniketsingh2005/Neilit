@@ -41,7 +41,7 @@
 # def greet_user(name) :
 #     print("Hello",name,"!")
 
-# greet_user("Kunal")    
+# greet_user("2")    
 
 # def calculate_area(radius):
 #     print(3.14*radius**2)

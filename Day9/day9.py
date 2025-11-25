@@ -8,9 +8,9 @@ import numpy as np
 # s = pd.Series(data)
 # print(s)
 
-# data = {'a' : 0,'b':1,'c':2}
-# s =pd.Series(data)
-# print(s)
-
-s = pd.Series(5,index= [0,1,2,3])
+data = {'a' : 0,'b':1,'c':2}
+s =pd.Series(data)
 print(s)
+
+# s = pd.Series(5,index= [0,1,2,3])
+# print(s)

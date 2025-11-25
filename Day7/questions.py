@@ -89,3 +89,55 @@ import numpy as np
 # print(type(array_tup))
 
 #9.	Create an array for a given range of elements between 2 to 40 step by 3.
+
+# d = np.arange(2,40,3,dtype=int)
+# print(d)
+
+#10.	Create an evenly spaced array of 10 values between 5 to 35.
+
+# e = np.linspace(5,35,num=10)
+# print(e)
+
+#11.
+
+# arr = np.array([1.2345, 2.6789, 3.14159, 4.0001, 5.9999, 6.7654, 7.8901, 8.5432, 9.1111, 10.0000])
+
+# r = np.round(arr,decimals=2)
+# print(r)
+
+#12.Write a python program to print the floor values of above array.
+
+# my_array = np.array([-1.6, -0.3, 0.1, 1.4, 2.0, -5.7])
+# fl = np.floor(my_array)
+# print(fl)
+
+# 13.	Write a python program to print the ceiling values of above array.
+
+# my_ceil = np.array([-1.6, -0.3, 0.1, 1.4, 2.0, -5.7])
+# ce = np.ceil(my_ceil)
+# print(ce)
+
+#14.
+
+arr = np.array([[23,45,66,76],[54,76,77,55],[23,43,44,33],[44,77,66,44]])
+
+mxmum = np.max(arr,axis=0)
+mxmum1 = np.max(arr,axis=1)
+
+print("The maximum no. in column is:",mxmum)
+print("The maximum no. in row is:",mxmum1)
+
+mnmum = np.min(arr,axis=0)
+mnmum1 = np.min(arr,axis=1)
+
+print("The minimum no. in column is:",mnmum)
+print("The minimum no. in row is:",mnmum1)
+
+rows, cols = arr.shape
+print(f"Array shape (rows, columns): {arr.shape}")
+print(f"Row index range: 0 to {rows - 1}")
+print(f"Column index range: 0 to {cols - 1}")
+
+
+
+
