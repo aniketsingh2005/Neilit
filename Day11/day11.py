@@ -32,15 +32,15 @@ import pandas as pd
 # df.pop('two')
 # print(df)
 
-d = {'Age':[30,40,43,23,43,32,28],
-     'Color':['Blue','Green','Red','yellow','Grey','Black','White'],
-     'Food':['Steak','Pasta','Mango','Apple','Cheese','Melon','Beans'],
-     'Height':[165,154,134,167,156,189,176],
-     'Score':[4.5,5.4,5.6,8.9,8.7,7.7,6.5],
-     'State':['NY','YU','UY','UI','YU','PO','II'],
-     }
-df = pd.DataFrame(d,index=['Jane','Nick','Aaron','Penelope','Kunal','Aniket','Amit'])
-print(df)     
+# d = {'Age':[30,40,43,23,43,32,28],
+#      'Color':['Blue','Green','Red','yellow','Grey','Black','White'],
+#      'Food':['Steak','Pasta','Mango','Apple','Cheese','Melon','Beans'],
+#      'Height':[165,154,134,167,156,189,176],
+#      'Score':[4.5,5.4,5.6,8.9,8.7,7.7,6.5],
+#      'State':['NY','YU','UY','UI','YU','PO','II'],
+#      }
+# df = pd.DataFrame(d,index=['Jane','Nick','Aaron','Penelope','Kunal','Aniket','Amit'])
+# print(df)     
 
 
 
