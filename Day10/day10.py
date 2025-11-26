@@ -26,16 +26,16 @@ import pandas as pd
 # df =pd.DataFrame(d)
 # print(df)
 
-subject_marks_dict = {
-        'Student': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
-        'Math': [90, 75, 95, 60, 88],
-        'Science': [85, 80, 90, 65, 92],
-        'English': [92, 78, 88, 70, 85],
-        'History': [88, 82, 91, 62, 90],
-        'Art': [95, 70, 93, 68, 87]
-    }
-df_student_centric = pd.DataFrame(subject_marks_dict)
-print(df_student_centric)
+# subject_marks_dict = {
+#         'Student': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+#         'Math': [90, 75, 95, 60, 88],
+#         'Science': [85, 80, 90, 65, 92],
+#         'English': [92, 78, 88, 70, 85],
+#         'History': [88, 82, 91, 62, 90],
+#         'Art': [95, 70, 93, 68, 87]
+#     }
+# df_student_centric = pd.DataFrame(subject_marks_dict)
+# print(df_student_centric)
 
 # d = { 'Students': pd.Series(['Pawan','Kunal','Indrajeet','Aniket','Sameer'],index=['1','2','3','4','5']),
 #      'Maths': pd.Series([25,45,65,76,55],index=['1','2','3','4','5']),
