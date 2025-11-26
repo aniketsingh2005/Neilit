@@ -119,24 +119,129 @@ import numpy as np
 
 #14.
 
-arr = np.array([[23,45,66,76],[54,76,77,55],[23,43,44,33],[44,77,66,44]])
+# arr = np.array([[23,45,66,76],[54,76,77,55],[23,43,44,33],[44,77,66,44]])
 
-mxmum = np.max(arr,axis=0)
-mxmum1 = np.max(arr,axis=1)
+# mxmum = np.max(arr,axis=0)
+# mxmum1 = np.max(arr,axis=1)
 
-print("The maximum no. in column is:",mxmum)
-print("The maximum no. in row is:",mxmum1)
+# print("The maximum no. in column is:",mxmum)
+# print("The maximum no. in row is:",mxmum1)
 
-mnmum = np.min(arr,axis=0)
-mnmum1 = np.min(arr,axis=1)
+# mnmum = np.min(arr,axis=0)
+# mnmum1 = np.min(arr,axis=1)
 
-print("The minimum no. in column is:",mnmum)
-print("The minimum no. in row is:",mnmum1)
+# print("The minimum no. in column is:",mnmum)
+# print("The minimum no. in row is:",mnmum1)
 
-rows, cols = arr.shape
-print(f"Array shape (rows, columns): {arr.shape}")
-print(f"Row index range: 0 to {rows - 1}")
-print(f"Column index range: 0 to {cols - 1}")
+# rows, cols = arr.shape
+# print(f"Array shape (rows, columns): {arr.shape}")
+# print(f"Row index range: 0 to {rows - 1}")
+# print(f"Column index range: 0 to {cols - 1}")
+
+#15.	Print 10th, 30th, 60th, 75th and 90th percentile for each columns of above array. 
+
+# Create a sample NumPy array
+# data = np.array([[10, 20, 30, 40],
+#                  [5, 15, 25, 35],
+#                  [12, 22, 32, 42],
+#                  [8, 18, 28, 38],
+#                  [1, 11, 21, 31]])
+
+# Define the percentiles to calculate
+# percentiles = [10, 30, 60, 75, 90]
+
+# Calculate the percentiles for each column (axis=0)
+# column_percentiles = np.percentile(data, percentiles, axis=0)
+
+# Print the results
+# for i, p in enumerate(percentiles):
+#     print(f"{p}th percentile for each column: {column_percentiles[i]}")
+
+#16.Print median and mean of a (5,3) array. Also print the mean of each row and column.
+
+# cd = np.array([[10, 20, 30,],
+#                  [5, 15, 25,],
+#                  [12, 22, 32,],
+#                  [8, 18, 28,],
+#                  [1, 11, 21,]])
+
+# #Printing the mean of arrays.
+# mn = np.mean(cd)
+# print(mn)
+
+# #Printing the median of arrays.
+# mdn = np.median(cd)
+# print(mdn)
+
+# #Printing the mean of only rows.
+# rmn = np.mean(cd,axis=1)
+# print(rmn)
+
+# #Printing the mean of only columns.
+# cmn = np.mean(cd,axis=0)
+# print(cmn)
+
+# Sort the above array column wise.
+
+# arr = np.array([[10, 20, 30,],
+#                  [5, 15, 25,],
+#                  [12, 22, 32,],
+#                  [8, 18, 28,],
+#                  [1, 11, 21,]])
+
+# #Printing the sorted array in column wise:
+# print("\nSorted array in column wise:")
+# sorted_array = np.sort(arr,axis=0)
+# print(sorted_array)
+
+
+# #Printing the sorted array in row wise:
+# print("\nSorted array in row wise:")
+# sorted_array1 = np.sort(arr,axis=1)
+# print(sorted_array1)
+
+#18.
+
+#a.	Enter 5 records randomly.
+
+# carr = [("id",int),
+#         ("name",object),
+#         ("salary",int)]
+
+# carr_data = np.array([(1,"Aniket",55000),
+#                      (2,"Kunal",60000),
+#                       (3,"Sujal",74000),
+#                      (4,"Pawan",20000),
+#                      (5,"Amit",56000)],dtype=carr)
+
+# print("Original array :")
+# print(carr_data)
+
+# #b.	Sort the array.
+
+# sorted_name = np.sort(carr_data,order="name")
+# print("\nSorting defaultly with name.")
+# print(sorted_name)
+
+# sorted_salary = np.sort(carr_data,order="salary")
+# print("\nSorting defaultly with salary.")
+# print(sorted_salary)
+
+# sorted_default = np.sort(carr_data,order="id")
+# print("\nSorting defaultly with id.")
+# print(sorted_default)
+
+# # 19.Print the index of sorted array. 
+
+# index_id = np.argsort(carr_data["id"])
+# print("\nIndex of array elements after sorted through id:",index_id)
+
+# index_name = np.argsort(carr_data["name"])
+# print("\nIndex of array elements after sorted through name:",index_name)
+
+# index_salary = np.argsort(carr_data["salary"])
+# print("\nIndex of array elements after sorted through salary:",index_id)
+
 
 
 
