@@ -14,6 +14,6 @@ import numpy as np
 # print(type(a))
 # print(a)
 
-arr = np.arange(10)
-print(arr)
+# arr = np.arange(10)
+# print(arr)
 

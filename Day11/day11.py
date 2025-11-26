@@ -40,7 +40,9 @@ import pandas as pd
 #      'State':['NY','YU','UY','UI','YU','PO','II'],
 #      }
 # df = pd.DataFrame(d,index=['Jane','Nick','Aaron','Penelope','Kunal','Aniket','Amit'])
-# print(df)     
+# print(df)
+# print("Retrieving the values for Nick")
+# print(df.loc['Nick'])     
 
 
 
