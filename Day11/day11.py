@@ -42,8 +42,22 @@ import pandas as pd
 # df = pd.DataFrame(d,index=['Jane','Nick','Aaron','Penelope','Kunal','Aniket','Amit'])
 # print(df)
 # print("Retrieving the values for Nick")
-# print(df.loc['Nick'])     
+# print(df.loc['Nick'])    
 
+#Sorting the Dataframe using sort_index or sort_values in any way like ascending or descending: 
+
+# d = {'Age':[30,40,43,23,43,32,28],
+#      'Color':['Blue','Green','Red','yellow','Grey','Black','White'],
+#      'Food':['Steak','Pasta','Mango','Apple','Cheese','Melon','Beans'],
+#      'Height':[165,154,134,167,156,189,176],
+#      'Score':[4.5,5.4,5.6,8.9,8.7,7.7,6.5],
+#      'State':['NY','YU','UY','UI','YU','PO','II'],
+#      }
+# df = pd.DataFrame(d,index=['Jane','Nick','Aaron','Penelope','Kunal','Aniket','Amit'])
+
+# print(df.sort_index())
+# print('\n',df.sort_values('Age'))
+# print(df.sort_values('Food', ascending=False))
 
 
 

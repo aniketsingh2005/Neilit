@@ -1,7 +1,7 @@
 import pandas as pd
 
 dataset = pd.read_csv('Day12/Dataset.csv')
-# print(dataset)
+print(dataset)
 
 # #printing the first five rows:
 # print(dataset.head())
@@ -27,14 +27,14 @@ dataset = pd.read_csv('Day12/Dataset.csv')
 # #printing the index info of dataset:
 # print(dataset.index)
 
-#printing the unique values in series:"column2 means the column name like 'land' , 'price'"
-print(dataset["land"].unique())
+# #printing the unique values in series:"column2 means the column name like 'land' , 'price'"
+# print('\n',dataset["land"].unique())
 
-#printing the no. of occurances of unique values:
-print(dataset["land"].value_counts())
+# #printing the no. of occurances of unique values:
+# print('\n',dataset["land"].value_counts())
 
-#print the mean value:
-print(dataset["land"].mean())
+# #print the mean value:
+# print('\n',dataset["land"].mean())
 
-#print the median value:
-print(dataset["land"].median())
+# #print the median value:
+# print('\n',dataset["land"].median())
