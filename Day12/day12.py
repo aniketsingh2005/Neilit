@@ -38,5 +38,3 @@ print(dataset)
 
 # #print the median value:
 # print('\n',dataset["land"].median())
-
-print("hello world")
