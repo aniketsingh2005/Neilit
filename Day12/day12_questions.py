@@ -77,7 +77,7 @@ import numpy as np
 
 # 11. Load a CSV file named 'students.csv' and print the first 5 rows.
 
-data = pd.read_csv('Day12/student.csv')
+# data = pd.read_csv('Day12/student.csv')
 # print(data.head(5))
 # print(data.head(2))
 
